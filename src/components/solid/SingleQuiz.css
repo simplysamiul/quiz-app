@@ -1,0 +1,50 @@
+.single-option{
+    padding: 2%;
+    border: 1px solid grey; 
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.single-option button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.single-option:hover{
+    border: 1px solid rgb(3 105 161);
+    background-color: rgb(3, 105, 161, .2);
+}
+
+/* pop up close button */
+.modal-close-button{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.modal-close-button .close-btn{
+    border: none !important;
+    background: none;
+    color: #ec1919;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+/* inside of pop up */
+.correct-ans{
+    text-align: center;
+    color: #0e740e;
+}
+
+.wrong-ans{
+    text-align: center;
+    color: #ec1919;
+}
+.wrong-ans h5{
+    color: #0e740e;
+    font-size: 16px;
+    margin: 10px 5px;
+}

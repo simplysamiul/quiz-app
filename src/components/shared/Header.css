@@ -1,0 +1,17 @@
+.header-area{
+    background-image: url("https://www.bergerpaints.com/colour-magazine/Upload/Quiz/Banner/quiz-bnr-nov19.jpg");
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #806b55;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    border: .5px solid rgb(245 158 11);
+}

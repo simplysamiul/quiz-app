@@ -1,0 +1,33 @@
+.nav-container{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    font-size: 1.6rem;
+    color: white;
+}
+.forest{
+    color: rgb(4, 157, 106);
+}
+.nav-content{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    background-color: rgb(44,44,56, .8);
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    border: .5px solid rgb(44,44,56, .8);;
+}
+
+.nav-link:hover{
+    border: .5px solid rgb(245 158 11);
+    color: rgb(245 158 11);
+}

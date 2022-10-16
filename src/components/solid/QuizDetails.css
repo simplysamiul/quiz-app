@@ -1,0 +1,31 @@
+.quiz-details-container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+.quiz-question{
+    background-color: rgb(44,44,56, .8);
+    border: .5px solid grey; 
+    color: white;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    padding: 2%;
+}
+
+.question{
+    color: aquamarine;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.quiz-type{
+    width: 100%;
+}
+
+/* .quiz-question:hover{
+    border: .5px solid rgb(245 158 11);
+} */
